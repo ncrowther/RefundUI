@@ -14,16 +14,6 @@ class Refund extends Component{
       this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    readMessagesApi = async () => {
-      console.log("Save comment:")
-      const response = await fetch('/api/getComments');
-      const body = await response.json();
-      if (response.status !== 200) throw Error(body.message);
-
-      console.log("Response:" + body)
-      return body;
-    };
-
     writeMessageApi = async () => {
       console.log("Save comment:")
 
