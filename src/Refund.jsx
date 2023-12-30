@@ -50,15 +50,15 @@ class Refund extends Component{
 
     render(){
         return(
-            <div className="contact-form--1">
-                <div className="container">
-                    <div className="row row--35 align-items-start">
-                        <div className="col-lg-6 order-2 order-lg-1">
-                            <div className="section-title text-left mb--50">
-                                <h2 className="title">Refunds</h2>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <h1 className="title">Refunds</h1>
                                 <p className="description"> Enter refund </p>
                             </div>
-                            <div className="form-wrapper">
+                            <div>
                                 <form onSubmit={this.handleSubmit}>
                                     <label htmlFor="ticketNumber">
                                         <input
